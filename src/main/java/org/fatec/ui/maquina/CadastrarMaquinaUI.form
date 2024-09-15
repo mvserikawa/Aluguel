@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.fatec.ui.maquina.CadastrarMaquinaUI">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="30" vgap="20">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="482" height="520"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="txtTipo" class="javax.swing.JTextField" binding="txtTipo">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="txtDescricao" class="javax.swing.JTextField" binding="txtDescricao">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="txtValorAluguel" class="javax.swing.JTextField" binding="txtValorAluguel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6ed5a" class="javax.swing.JLabel" binding="Tipolabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tipo"/>
+        </properties>
+      </component>
+      <component id="a3b1b" class="javax.swing.JLabel" binding="Desclabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Descrição"/>
+        </properties>
+      </component>
+      <component id="96abe" class="javax.swing.JLabel" binding="Esplabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Especificação"/>
+        </properties>
+      </component>
+      <component id="93d2" class="javax.swing.JLabel" binding="Vllabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valor do Aluguel"/>
+        </properties>
+      </component>
+      <component id="btnCancelar" class="javax.swing.JButton" binding="btnCancelar">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+      <component id="btnSalvar" class="javax.swing.JButton" binding="btnSalvar">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salvar"/>
+        </properties>
+      </component>
+      <component id="5ae28" class="javax.swing.JLabel" binding="lblUsuarioId">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="idUsuario"/>
+        </properties>
+      </component>
+      <component id="83475" class="javax.swing.JTextArea" binding="txtEspec">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>

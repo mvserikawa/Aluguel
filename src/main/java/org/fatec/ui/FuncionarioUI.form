@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.fatec.ui.FuncionarioUI">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="352"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a10f" class="javax.swing.JLabel" binding="labelNome">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nome:"/>
+        </properties>
+      </component>
+      <component id="d36d" class="javax.swing.JTextField" binding="textFieldNome">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="91d3" class="javax.swing.JLabel" binding="labelCargo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cargo:"/>
+        </properties>
+      </component>
+      <component id="e3e6" class="javax.swing.JTextField" binding="textFieldCargo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e6df" class="javax.swing.JLabel" binding="labelSalario">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salário:"/>
+        </properties>
+      </component>
+      <component id="7f3e" class="javax.swing.JTextField" binding="textFieldSalario">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="20a1" class="javax.swing.JLabel" binding="labelDataAdmissao">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Data de Admissão:"/>
+        </properties>
+      </component>
+      <component id="1950" class="javax.swing.JTextField" binding="textFieldDataAdmissao">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="987e" class="javax.swing.JButton" binding="btnSalvar">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salvar"/>
+        </properties>
+      </component>
+      <component id="987f" class="javax.swing.JButton" binding="btnExcluir">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Excluir"/>
+        </properties>
+      </component>
+      <component id="987g" class="javax.swing.JButton" binding="btnEditar">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Editar"/>
+        </properties>
+      </component>
+      <component id="987h" class="javax.swing.JButton" binding="btnBuscar">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Buscar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
